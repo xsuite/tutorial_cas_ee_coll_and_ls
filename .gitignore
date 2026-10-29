@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+light_source_design.json
+light_source_with_radiation.json
