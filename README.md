@@ -2,7 +2,9 @@
 
 Open [notebook_00_light_source.ipynb](notebook_00_light_source.ipynb) and run it from top to bottom.
 
-This intermediate tutorial builds a 3 GeV electron ring from scratch with 16 double-bend achromat cells. It covers periodic optics matching, dispersion-free straights, ring closure, chromaticity correction, RF focusing, radiation-integral convergence, 6D radiation equilibrium, and source-point beam sizes. It includes explanations, plots, numerical checks, and six design exercises.
+This intermediate tutorial builds a 3 GeV electron ring from scratch with 16 double-bend achromat cells. Each cell has one focusing quadrupole between the two bends and an outer doublet on each side. Three quadrupole families match the two tunes and zero straight-section dispersion; the straight-section beta functions are outputs of the match.
+
+It covers periodic optics matching, dispersion-free straights, ring closure, chromaticity correction, RF focusing, radiation-integral convergence, 6D radiation equilibrium, and source-point beam sizes. It includes explanations, plots, numerical checks, and six design exercises.
 
 The lattice is an ideal teaching model, with no external lattice files or MAD-X dependency. Allow about 60–90 minutes including exercises.
 
@@ -19,7 +21,7 @@ Select the corresponding Python kernel. The first cell prints package versions. 
 
 ## Validation
 
-All 17 code cells executed successfully with Python 3.13, Xtrack 0.111.6, and Xobjects 0.6.10. Outputs are included. Execution took about 12 seconds in the local environment with available tracking kernels; first-time compilation can take longer.
+All 18 nonempty code cells executed successfully with Python 3.13, Xtrack 0.111.6, and Xobjects 0.6.10. Outputs are included. Execution took about 15 seconds in the local environment with available tracking kernels; first-time compilation can take longer.
 
 The default model gives:
 
@@ -27,14 +29,15 @@ The default model gives:
 |---|---:|
 | Circumference | 208.8 m |
 | Tunes, without radiation | 11.22 / 4.18 |
+| Straight-centre beta functions, without radiation | 14.22 / 10.57 m |
 | Corrected chromaticities | +1 / +1 |
 | Energy loss per turn | 0.938 MeV |
-| Horizontal equilibrium emittance | 98.5 nm |
+| Horizontal equilibrium emittance | 52.0 nm |
 | RMS relative momentum spread | 9.28 × 10⁻⁴ |
 | RMS bunch length at the first straight | 5.16 mm |
 | Horizontal / vertical amplitude damping times | 4.48 / 4.46 ms |
 | Longitudinal amplitude damping time | 2.22 ms |
 
-The emittance changes by 0.14% between 16 and 32 thick slices per bend. The notebook compares radiation-integral predictions with the full 6D radiation analysis and checks survey closure, matching targets, and analytical bend integrals.
+The emittance changes by 0.089% between 16 and 32 thick slices per bend. Chromaticities are rematched after slicing the sextupoles. The notebook compares radiation-integral predictions with the full 6D radiation analysis and checks survey closure, matching targets, and analytical bend integrals. The tune targets are illustrative and have not been optimized for emittance or nonlinear acceptance.
 
 The ideal lattice has essentially zero vertical equilibrium emittance; the separate vertical beam-size example explicitly assumes a finite vertical emittance. The tutorial does not establish dynamic aperture, momentum acceptance, or lifetime. Optional JSON export commands are provided at the end.
