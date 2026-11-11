@@ -51,8 +51,8 @@ def prepare(source, output):
     start = 'end_ds_start_straight_ipd'
     end = 'end_straight_start_ds_ipd'
     targets_ip = [
-        xt.Target('betx', at=ip, value=10 * tw0['betx', ip], tol=1e-8, weight=10),
-        xt.Target('bety', at=ip, value=10 * tw0['bety', ip], tol=1e-10, weight=1000),
+        xt.Target('betx', at=ip, value=5 * tw0['betx', ip], tol=1e-8, weight=10),
+        xt.Target('bety', at=ip, value=5 * tw0['bety', ip], tol=1e-10, weight=1000),
         xt.TargetSet(alfx=0, alfy=0, at=ip, tol=1e-7),
     ]
     line.match(
@@ -60,11 +60,17 @@ def prepare(source, output):
         vary=xt.VaryList(KNOBS_LEFT, step=1e-8), targets=targets_ip,
         n_steps_max=80,
     )
-    line.match(
+    opt_right = line.match(
         method='4d', start=ip, end=end, init=tw0.get_twiss_init(end), init_at=end,
         vary=xt.VaryList(KNOBS_RIGHT, step=1e-8), targets=targets_ip,
         n_steps_max=80,
     )
+    # First match the IP, then constrain the horizontal beta peak.
+    opt_right = opt_right.clone(add_targets=[
+        xt.Target(lambda tw: tw.betx.max(), xt.LessThan(1000),
+                  tol=1e-3, weight=1e-3, tag='max_betx'),
+    ])
+    opt_right.solve()
     line.match(
         method='4d', vary=xt.VaryList(['kqf2', 'kqd1'], step=1e-8),
         targets=xt.TargetSet(qx=tw0.qx, qy=tw0.qy, tol=1e-8),
@@ -76,10 +82,12 @@ def prepare(source, output):
     )
     tw = line.twiss4d(delta_chrom=1e-6)
     ips = ['ipa', 'ipd', 'ipg', 'ipj']
-    np.testing.assert_allclose(tw.rows[ips].betx / tw0.rows[ips].betx, 10, rtol=5e-3)
-    np.testing.assert_allclose(tw.rows[ips].bety / tw0.rows[ips].bety, 10, rtol=5e-3)
+    np.testing.assert_allclose(tw.rows[ips].betx / tw0.rows[ips].betx, 5, rtol=5e-3)
+    np.testing.assert_allclose(tw.rows[ips].bety / tw0.rows[ips].bety, 5, rtol=5e-3)
     np.testing.assert_allclose([tw.qx, tw.qy], [tw0.qx, tw0.qy], atol=1e-8, rtol=0)
     np.testing.assert_allclose([tw.dqx, tw.dqy], [tw0.dqx, tw0.dqy], atol=1e-3, rtol=0)
+    assert tw.rows[ip:end].betx.max() < 1000
+    print('Maximum horizontal beta in right half [m]:', tw.rows[ip:end].betx.max())
     save_strengths(env, output / 'optics_desqueezed.json')
 
     # Check switching both ways using exactly the student-facing API.
