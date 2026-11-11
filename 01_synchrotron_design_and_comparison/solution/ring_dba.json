@@ -91,6 +91,390 @@
    "vars['ksd']"
   ],
   [
+   "element_refs['bend.0'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.0'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.1'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.1'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.2'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.2'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.3'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.3'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.4'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.4'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.5'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.5'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.6'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.6'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.7'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.7'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.8'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.8'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.9'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.9'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.10'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.10'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.11'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.11'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.12'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.12'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.13'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.13'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.14'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.14'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.15'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.15'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.16'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.16'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.17'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.17'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.18'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.18'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.19'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.19'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.20'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.20'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.21'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.21'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.22'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.22'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.23'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.23'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.24'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.24'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.25'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.25'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.26'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.26'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.27'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.27'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.28'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.28'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.29'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.29'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.30'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.30'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['bend.31'].length",
+   "vars['l_bend']"
+  ],
+  [
+   "element_refs['bend.31'].angle",
+   "vars['angle_bend']"
+  ],
+  [
+   "element_refs['qf2.0'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.0'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.1'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.1'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.2'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.2'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.3'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.3'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.4'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.4'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.5'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.5'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.6'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.6'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.7'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.7'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.8'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.8'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.9'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.9'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.10'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.10'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.11'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.11'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.12'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.12'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.13'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.13'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.14'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.14'].k1",
+   "vars['kqf2']"
+  ],
+  [
+   "element_refs['qf2.15'].length",
+   "vars['l_quad']"
+  ],
+  [
+   "element_refs['qf2.15'].k1",
+   "vars['kqf2']"
+  ],
+  [
    "element_refs['sd.0'].length",
    "vars['l_sext']"
   ],
@@ -347,644 +731,260 @@
    "vars['ksd']"
   ],
   [
-   "element_refs['sf.0'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.0'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.1'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.1'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.2'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.2'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.3'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.3'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.4'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.4'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.5'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.5'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.6'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.6'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.7'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.7'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.8'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.8'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.9'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.9'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.10'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.10'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.11'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.11'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.12'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.12'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.13'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.13'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.14'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.14'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.15'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.15'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.16'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.16'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.17'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.17'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.18'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.18'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.19'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.19'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.20'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.20'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.21'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.21'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.22'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.22'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.23'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.23'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.24'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.24'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.25'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.25'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.26'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.26'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.27'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.27'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.28'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.28'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.29'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.29'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.30'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.30'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['sf.31'].length",
-   "vars['l_sext']"
-  ],
-  [
-   "element_refs['sf.31'].k2",
-   "vars['ksf']"
-  ],
-  [
-   "element_refs['qf2.0'].length",
+   "element_refs['qf1.0'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.0'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.0'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.1'].length",
+   "element_refs['qf1.1'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.1'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.1'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.2'].length",
+   "element_refs['qf1.2'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.2'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.2'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.3'].length",
+   "element_refs['qf1.3'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.3'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.3'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.4'].length",
+   "element_refs['qf1.4'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.4'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.4'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.5'].length",
+   "element_refs['qf1.5'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.5'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.5'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.6'].length",
+   "element_refs['qf1.6'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.6'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.6'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.7'].length",
+   "element_refs['qf1.7'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.7'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.7'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.8'].length",
+   "element_refs['qf1.8'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.8'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.8'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.9'].length",
+   "element_refs['qf1.9'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.9'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.9'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.10'].length",
+   "element_refs['qf1.10'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.10'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.10'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.11'].length",
+   "element_refs['qf1.11'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.11'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.11'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.12'].length",
+   "element_refs['qf1.12'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.12'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.12'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.13'].length",
+   "element_refs['qf1.13'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.13'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.13'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.14'].length",
+   "element_refs['qf1.14'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.14'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.14'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['qf2.15'].length",
+   "element_refs['qf1.15'].length",
    "vars['l_quad']"
   ],
   [
-   "element_refs['qf2.15'].k1",
-   "vars['kqf2']"
+   "element_refs['qf1.15'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.0'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.16'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.0'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.16'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.1'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.17'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.1'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.17'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.2'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.18'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.2'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.18'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.3'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.19'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.3'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.19'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.4'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.20'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.4'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.20'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.5'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.21'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.5'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.21'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.6'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.22'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.6'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.22'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.7'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.23'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.7'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.23'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.8'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.24'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.8'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.24'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.9'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.25'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.9'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.25'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.10'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.26'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.10'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.26'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.11'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.27'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.11'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.27'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.12'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.28'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.12'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.28'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.13'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.29'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.13'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.29'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.14'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.30'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.14'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.30'].k1",
+   "vars['kqf1']"
   ],
   [
-   "element_refs['bend.15'].length",
-   "vars['l_bend']"
+   "element_refs['qf1.31'].length",
+   "vars['l_quad']"
   ],
   [
-   "element_refs['bend.15'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.16'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.16'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.17'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.17'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.18'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.18'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.19'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.19'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.20'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.20'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.21'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.21'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.22'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.22'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.23'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.23'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.24'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.24'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.25'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.25'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.26'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.26'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.27'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.27'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.28'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.28'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.29'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.29'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.30'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.30'].angle",
-   "vars['angle_bend']"
-  ],
-  [
-   "element_refs['bend.31'].length",
-   "vars['l_bend']"
-  ],
-  [
-   "element_refs['bend.31'].angle",
-   "vars['angle_bend']"
+   "element_refs['qf1.31'].k1",
+   "vars['kqf1']"
   ],
   [
    "element_refs['qd1.0'].length",
@@ -1243,260 +1243,260 @@
    "vars['kqd1']"
   ],
   [
-   "element_refs['qf1.0'].length",
-   "vars['l_quad']"
+   "element_refs['sf.0'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.0'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.0'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.1'].length",
-   "vars['l_quad']"
+   "element_refs['sf.1'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.1'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.1'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.2'].length",
-   "vars['l_quad']"
+   "element_refs['sf.2'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.2'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.2'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.3'].length",
-   "vars['l_quad']"
+   "element_refs['sf.3'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.3'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.3'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.4'].length",
-   "vars['l_quad']"
+   "element_refs['sf.4'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.4'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.4'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.5'].length",
-   "vars['l_quad']"
+   "element_refs['sf.5'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.5'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.5'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.6'].length",
-   "vars['l_quad']"
+   "element_refs['sf.6'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.6'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.6'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.7'].length",
-   "vars['l_quad']"
+   "element_refs['sf.7'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.7'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.7'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.8'].length",
-   "vars['l_quad']"
+   "element_refs['sf.8'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.8'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.8'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.9'].length",
-   "vars['l_quad']"
+   "element_refs['sf.9'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.9'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.9'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.10'].length",
-   "vars['l_quad']"
+   "element_refs['sf.10'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.10'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.10'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.11'].length",
-   "vars['l_quad']"
+   "element_refs['sf.11'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.11'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.11'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.12'].length",
-   "vars['l_quad']"
+   "element_refs['sf.12'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.12'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.12'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.13'].length",
-   "vars['l_quad']"
+   "element_refs['sf.13'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.13'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.13'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.14'].length",
-   "vars['l_quad']"
+   "element_refs['sf.14'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.14'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.14'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.15'].length",
-   "vars['l_quad']"
+   "element_refs['sf.15'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.15'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.15'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.16'].length",
-   "vars['l_quad']"
+   "element_refs['sf.16'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.16'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.16'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.17'].length",
-   "vars['l_quad']"
+   "element_refs['sf.17'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.17'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.17'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.18'].length",
-   "vars['l_quad']"
+   "element_refs['sf.18'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.18'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.18'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.19'].length",
-   "vars['l_quad']"
+   "element_refs['sf.19'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.19'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.19'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.20'].length",
-   "vars['l_quad']"
+   "element_refs['sf.20'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.20'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.20'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.21'].length",
-   "vars['l_quad']"
+   "element_refs['sf.21'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.21'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.21'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.22'].length",
-   "vars['l_quad']"
+   "element_refs['sf.22'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.22'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.22'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.23'].length",
-   "vars['l_quad']"
+   "element_refs['sf.23'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.23'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.23'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.24'].length",
-   "vars['l_quad']"
+   "element_refs['sf.24'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.24'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.24'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.25'].length",
-   "vars['l_quad']"
+   "element_refs['sf.25'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.25'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.25'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.26'].length",
-   "vars['l_quad']"
+   "element_refs['sf.26'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.26'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.26'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.27'].length",
-   "vars['l_quad']"
+   "element_refs['sf.27'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.27'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.27'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.28'].length",
-   "vars['l_quad']"
+   "element_refs['sf.28'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.28'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.28'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.29'].length",
-   "vars['l_quad']"
+   "element_refs['sf.29'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.29'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.29'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.30'].length",
-   "vars['l_quad']"
+   "element_refs['sf.30'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.30'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.30'].k2",
+   "vars['ksf']"
   ],
   [
-   "element_refs['qf1.31'].length",
-   "vars['l_quad']"
+   "element_refs['sf.31'].length",
+   "vars['l_sext']"
   ],
   [
-   "element_refs['qf1.31'].k1",
-   "vars['kqf1']"
+   "element_refs['sf.31'].k2",
+   "vars['ksf']"
   ]
  ],
  "composer": {
