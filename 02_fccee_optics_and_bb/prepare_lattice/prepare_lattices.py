@@ -4,7 +4,7 @@ Run with the tutorial's Xsuite environment. The default input is the original
 fccee_z.json beside this script; --source can select another input file.
 Generated lattice and strength files are written to the parent exercise folder.
 The original lattice is read only. The notebooks use the generated files directly
-and do not run this script.
+and do not run this script. All exercises use the same simplified magnet models.
 """
 
 import argparse
@@ -32,7 +32,18 @@ def prepare(source, output):
     env = xt.load(source)
     line = env.fccee_p_ring
     line.configure_radiation(model=None)
-    tw_original = line.twiss4d(delta_chrom=1e-6)
+
+    # Use the same fast magnet models for optics and tracking in every exercise.
+    tt_magnets = line.get_table()
+    line.set(
+        tt_magnets.rows.match(element_type='Bend|RBend|Quadrupole'),
+        model='mat-kick-mat', integrator='uniform', num_multipole_kicks=1,
+    )
+    line.configure_sextupole_model(
+        model='drift-kick-drift-expanded', integrator='teapot',
+        num_multipole_kicks=1,
+    )
+    tw_before_split = line.twiss4d(delta_chrom=1e-6)
 
     env['kqd8mr'] = env['kqd8m']
     env['kqf9mr'] = env['kqf9m']
@@ -43,7 +54,7 @@ def prepare(source, output):
 
     tw0 = line.twiss4d(delta_chrom=1e-6)
     np.testing.assert_allclose([tw0.qx, tw0.qy],
-                               [tw_original.qx, tw_original.qy], atol=1e-9, rtol=0)
+                               [tw_before_split.qx, tw_before_split.qy], atol=1e-9, rtol=0)
     env.to_json(output / 'fccee_z.json')
     save_strengths(env, output / 'optics_nominal.json')
 
