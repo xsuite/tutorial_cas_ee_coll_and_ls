@@ -88,11 +88,11 @@ def prepare(source, output):
     np.testing.assert_allclose([tw.dqx, tw.dqy], [tw0.dqx, tw0.dqy], atol=1e-3, rtol=0)
     assert tw.rows[ip:end].betx.max() < 1000
     print('Maximum horizontal beta in right half [m]:', tw.rows[ip:end].betx.max())
-    save_strengths(env, output / 'optics_desqueezed.json')
+    save_strengths(env, output / 'optics_larger_ip_beta.json')
 
     # Check switching both ways using exactly the student-facing API.
     for filename, reference in [('optics_nominal.json', tw0),
-                                ('optics_desqueezed.json', tw)]:
+                                ('optics_larger_ip_beta.json', tw)]:
         env.vars.load(output / filename)
         check = line.twiss4d(delta_chrom=1e-6)
         np.testing.assert_allclose(check.rows[ips].betx, reference.rows[ips].betx,
