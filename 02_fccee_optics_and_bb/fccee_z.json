@@ -252909,7 +252909,19 @@
     "steering_correctors_y": null,
     "steering_monitors_x": null,
     "steering_monitors_y": null,
-    "twiss_default": {}
+    "twiss_default": {
+     "nemitt_x": 6.335825142938155e-05,
+     "nemitt_y": 1.8739764507281863e-07,
+     "step_W_sigma": 0.001,
+     "steps_R_matrix": {
+      "ddelta": 1e-05,
+      "dpx": 1e-09,
+      "dpy": 1e-10,
+      "dx": 1e-08,
+      "dy": 1e-10,
+      "dzeta": 0.0001
+     }
+    }
    },
    "composer": {
     "__class__": "Composer",

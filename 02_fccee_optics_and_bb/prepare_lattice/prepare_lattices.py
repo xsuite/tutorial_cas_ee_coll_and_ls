@@ -43,6 +43,18 @@ def prepare(source, output):
         model='drift-kick-drift-expanded', integrator='teapot',
         num_multipole_kicks=1,
     )
+    # Small numerical probes resolve the narrow beams at the interaction points.
+    # Leave chromaticity calculation enabled for the optics exercises.
+    beta_gamma = line.particle_ref.beta0[0] * line.particle_ref.gamma0[0]
+    line.twiss_default.update(
+        nemitt_x=0.71e-9 * beta_gamma,
+        nemitt_y=2.1e-12 * beta_gamma,
+        step_W_sigma=0.001,
+        steps_R_matrix=dict(
+            dx=1e-8, dpx=1e-9, dy=1e-10, dpy=1e-10,
+            dzeta=1e-4, ddelta=1e-5,
+        ),
+    )
     tw_before_split = line.twiss4d(delta_chrom=1e-6)
 
     env['kqd8mr'] = env['kqd8m']
