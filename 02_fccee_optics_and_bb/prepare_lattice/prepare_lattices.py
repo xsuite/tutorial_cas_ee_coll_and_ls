@@ -2,13 +2,15 @@
 
 Run with the tutorial's Xsuite environment. The default input is the original
 fccee_z.json beside this script; --source can select another input file.
-Generated lattice and strength files are written to the parent exercise folder.
+Generated lattice and strength files are written to the parent exercise folder
+and copied to its solution subfolder so the solutions can run independently.
 The original lattice is read only. The notebooks use the generated files directly
 and do not run this script. All exercises use the same simplified magnet models.
 """
 
 import argparse
 import json
+import shutil
 from pathlib import Path
 
 import numpy as np
@@ -126,6 +128,11 @@ def prepare(source, output):
                                    [reference.qx, reference.qy, reference.dqx, reference.dqy],
                                    atol=1e-6, rtol=0)
         print(filename, 'verified:', check.qx, check.qy, check.dqx, check.dqy)
+
+    solution = output / 'solution'
+    solution.mkdir(exist_ok=True)
+    for filename in ['fccee_z.json', 'optics_nominal.json', 'optics_larger_ip_beta.json']:
+        shutil.copyfile(output / filename, solution / filename)
 
 
 if __name__ == '__main__':
